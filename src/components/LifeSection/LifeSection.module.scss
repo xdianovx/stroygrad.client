@@ -1,0 +1,22 @@
+.section {
+  @apply mt-[350px] h-screen;
+  :global(.container) {
+    @apply h-full;
+  }
+}
+
+.wrap {
+  @apply flex  items-center h-full;
+}
+
+.info {
+  @apply flex flex-col;
+}
+
+.suptitle {
+  @apply text-grayDark;
+}
+
+.text {
+  @apply mt-[80px] text-[55px] leading-[69px];
+}

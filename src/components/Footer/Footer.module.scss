@@ -1,0 +1,55 @@
+.footer {
+  @apply bg-black mt-[160px];
+}
+
+.top {
+}
+
+.top__wrap {
+  @apply flex text-white py-4 gap-12;
+}
+
+.top__item {
+  @apply pr-[26px] relative mr-12 text-xl leading-none;
+  &:before {
+    @apply absolute content-[''] top-[3px] right-0 w-[13px] h-[13px] rounded-full border-2 border-white;
+  }
+}
+
+.marquee {
+  @apply text-[150px];
+  text-shadow: 1px 0 1px #fff, 0 1px 1px #fff, -1px 0 1px #fff, 0 -1px 1px #fff;
+}
+
+.marquee__item {
+  @apply mx-14;
+}
+
+.navigation {
+  @apply border-t border-t-gray grid grid-cols-2 text-white;
+}
+
+.left {
+  @apply border-r border-gray;
+}
+
+.link {
+  @apply flex items-end pl-[120px] pb-[40px] pt-[80px] pr-[41px] border-b border-gray;
+  p {
+    @apply text-[40px] leading-none;
+  }
+  span {
+    @apply ml-auto;
+  }
+}
+
+.right__wrap {
+  @apply h-1/2 border-b pl-[70px] border-gray  flex items-end pr-[120px] pb-12;
+}
+.right__bottom {
+  @apply h-1/2 border-b pl-[70px] border-gray flex items-end pr-[120px];
+}
+
+.phones {
+  @apply flex flex-col ml-auto text-3xl gap-2;
+}

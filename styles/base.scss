@@ -1,0 +1,10 @@
+*,
+*::after,
+*::before {
+  outline: none;
+}
+
+body {
+  @apply text-black dark:bg-black duration-500 dark:text-white bg-white;
+  white-space: pre-wrap;
+}

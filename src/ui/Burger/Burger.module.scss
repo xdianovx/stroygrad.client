@@ -1,0 +1,36 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  // border: 1px solid #dedede;
+  position: relative;
+  z-index: 4;
+
+  &.active {
+    // background: red;
+  }
+}
+
+.top {
+  @apply bg-black dark:bg-white;
+  transition: all 0.2ms ease;
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  top: 21px;
+}
+.bottom {
+  @apply bg-black dark:bg-slate-50;
+  position: absolute;
+  transition: all 0.2ms ease;
+
+  right: 0;
+  height: 2px;
+  width: 30px;
+  bottom: 21px;
+}

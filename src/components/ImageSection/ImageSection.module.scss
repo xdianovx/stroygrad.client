@@ -1,0 +1,11 @@
+.section {
+  @apply relative  h-screen mt-[246px] flex items-center justify-center;
+}
+
+.image {
+  @apply w-[200px] h-[150px] relative;
+
+  img {
+    @apply block object-cover;
+  }
+}

@@ -1,0 +1,15 @@
+.section {
+  @apply pt-[490px];
+}
+
+.wrap {
+  @apply flex items-start;
+}
+
+.left {
+
+}
+
+.right {
+  @apply ml-auto max-w-[805px];
+}

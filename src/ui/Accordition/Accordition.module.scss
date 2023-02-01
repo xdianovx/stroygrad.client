@@ -1,0 +1,19 @@
+.wrap {
+  
+}
+
+.item {
+  @apply border-t-gray border-t py-[46px] cursor-pointer
+}
+
+.head {
+@apply flex items-center 
+}
+
+.title {
+@apply ml-auto tracking-[-0.03em] text-[141px] leading-[188px] max-w-[925px] w-full;
+}
+
+.circle {
+  @apply w-[13px] h-[13px] border-black border-2 rounded-full ml-4;
+}

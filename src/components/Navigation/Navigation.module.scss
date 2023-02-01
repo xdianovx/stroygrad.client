@@ -1,0 +1,15 @@
+.menu {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: -110%;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  transition: all 0.73s ease-in-out;
+  z-index: 3;
+  &.active {
+    top: 0;
+  }
+}

@@ -1,0 +1,12 @@
+.h1 {
+  font-weight: 400;
+  font-size: 300px;
+  line-height: 245px;
+  letter-spacing: -0.03em;
+
+  @apply font-normal font-[300px] dark:text-white;
+}
+
+.lg {
+  @apply text-[300px] leading-[245px];
+}

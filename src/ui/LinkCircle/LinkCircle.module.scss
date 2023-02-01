@@ -1,0 +1,6 @@
+.link {
+  @apply underline relative pr-9 leading-none inline-block;
+  &:after {
+    @apply absolute content-[''] top-[1px] right-0 w-[13px] h-[13px] rounded-full border-2 border-black;
+  }
+}
