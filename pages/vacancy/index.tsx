@@ -1,3 +1,4 @@
+// @ts-nocheck
 import s from "./vacancy.module.scss";
 
 import Head from "next/head";

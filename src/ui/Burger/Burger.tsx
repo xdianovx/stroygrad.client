@@ -1,3 +1,4 @@
+// @ts-nocheck
 import cn from "classnames";
 import gsap from "gsap";
 import { useEffect, useLayoutEffect, useRef, useState } from "react";

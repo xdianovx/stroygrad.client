@@ -4,13 +4,6 @@ import "../styles/globals.scss";
 
 import type { AppProps } from "next/app";
 import localFont from "@next/font/local";
-import { ThemeProvider } from "next-themes";
-import { useState } from "react";
-import { useIsomorphicLayoutEffect } from "../src/utils/useIsomorphicLayoutEffect";
-import { gsap } from "gsap-trial";
-import { ScrollTrigger } from "gsap-trial/dist/ScrollTrigger";
-import { ScrollSmoother } from "gsap-trial/dist/ScrollSmoother";
-import { SmootherContext } from "../src/utils/SmootherContext";
 
 const graphic = localFont({
   src: [

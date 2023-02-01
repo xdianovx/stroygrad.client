@@ -34,7 +34,7 @@ export const CooperationForm = ({ className }: iCooperationForm) => {
               <Input label="Телефон" type="text" />
               <Input label="E-mail" type="text" />
               <div className="flex">
-                <Checkbox label={checkText} id="asd" />
+                <Checkbox form="" label={checkText} id="asd" />
                 <ButtonArrow className="ml-auto" />
               </div>
             </form>
