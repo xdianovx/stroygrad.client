@@ -48,6 +48,23 @@ export const Input = ({
         </div>
       );
 
+    case "email":
+      return (
+        <div
+          className={cn(s.wrap, className, {
+            [s.active]: isOpen,
+          })}
+        >
+          <label className={cn(s.label, "text-sm")}>{label}</label>
+          <input
+            className={cn(s.input, "border-b", "border-gray")}
+            onChange={handleInput}
+            type="text"
+            value={inputValue}
+          />
+        </div>
+      );
+
     default:
       return <input />;
   }

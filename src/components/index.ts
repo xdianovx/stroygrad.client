@@ -1,3 +1,5 @@
+export { CallbackForm } from "./CallbackForm/CallbackForm";
+export { NewsCard } from "./NewsCard/NewsCard";
 export { TeamCard } from "./TeamCard/TeamCard";
 export { PersonalSection } from "./PersonalSection/PersonalSection";
 export { VacancySection } from "./VacancySection/VacancySection";
