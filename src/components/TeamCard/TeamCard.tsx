@@ -19,12 +19,12 @@ export const TeamCard = ({ data, className }: iTeamCard) => {
         <Image src={data.image} fill className="block" alt={data.name} />
       </div>
 
-      <div className="flex justify-between items-end mt-[60px]">
+      <div className="flex items-end mt-[60px]">
         <h2 className="text-[56px] leading-[68px] max-w-[450px] w-full">
           {data.name}
         </h2>
-        <span className="leading-none">/</span>
-        <p>{data.position}</p>
+        <span className="leading-none text-grayDark mb-[15px] mx-8">/</span>
+        <p className="text-grayDark mb-[10px]">{data.position}</p>
       </div>
     </div>
   );

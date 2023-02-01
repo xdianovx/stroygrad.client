@@ -4,7 +4,7 @@ import cn from "classnames";
 
 import Head from "next/head";
 import MainLayout from "../../src/layouts/MainLayout";
-import { TextLg, TextMd, Title } from "../../src/ui";
+import { LinkCircle, TextLg, TextMd, Title } from "../../src/ui";
 import { TeamCard } from "../../src/components";
 
 export default function Team() {
@@ -25,6 +25,7 @@ export default function Team() {
       image: "/img/team/2.jpg",
     },
   ];
+  const workText = "Свободные\nвакансии нашей\nкомпании ";
   return (
     <>
       <Head>
@@ -51,6 +52,32 @@ export default function Team() {
               {teamData.map((item) => (
                 <TeamCard data={item} key={item.id} />
               ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="mt-[692px]">
+          <div className="container">
+            <div className="flex items-end">
+              <h2 className="text-[300px] leading-none">Команда</h2>
+              <p className="ml-24 leading-none mb-[50px]">(32 человека)</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="mt-[600px]">
+          <div className="container">
+            <div className="grid grid-cols-2">
+              <div>
+                <p className="text-grayDark">Работа для вас</p>
+              </div>
+              <div>
+                <TextMd>{workText}</TextMd>
+                <p className="mt-20">(16+ свободных вакансий )</p>
+                <LinkCircle link="vacancy" className="mt-[104px]" size="lg">
+                  Посмотреть вакансии
+                </LinkCircle>
+              </div>
             </div>
           </div>
         </section>

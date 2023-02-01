@@ -6,11 +6,23 @@ export interface iLinkCircle {
   children: string;
   link: string;
   className?: string;
+  size?: "sm" | "md" | "lg";
 }
 
-export const LinkCircle = ({ link, className, children }: iLinkCircle) => {
+export const LinkCircle = ({
+  link,
+  className,
+  size = "md",
+  children,
+}: iLinkCircle) => {
   return (
-    <div className={cn(s.link, className)}>
+    <div
+      className={cn(s.link, className, {
+        [s.sm]: size === "sm",
+        [s.md]: size === "md",
+        [s.lg]: size === "lg",
+      })}
+    >
       <Link href={link}>{children}</Link>
     </div>
   );
