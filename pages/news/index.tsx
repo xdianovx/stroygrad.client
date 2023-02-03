@@ -31,7 +31,7 @@ export default function Team() {
       title: "График работы отделов продаж в выходные и праздничные дни",
       date: "22.10",
       image: "/img/news/1.png",
-      link: "/project",
+      link: "/news/test",
 
       dark: true,
     },
@@ -41,12 +41,12 @@ export default function Team() {
         "Стройград представила новую цифровую платформу для продажи квартир через агентства недвижимости",
       date: "22.10",
       image: "",
-      link: "/project",
+      link: "/news/test",
       dark: true,
     },
     {
       id: 3,
-      link: "/project",
+      link: "/news/test",
 
       title:
         "Стройград представила новую цифровую платформу для продажи квартир через агентства недвижимости",
@@ -56,7 +56,7 @@ export default function Team() {
     },
     {
       id: 4,
-      link: "/project",
+      link: "/news/test",
 
       title:
         "Стройград представила новую цифровую платформу для продажи квартир через агентства недвижимости",
@@ -66,7 +66,7 @@ export default function Team() {
     },
     {
       id: 5,
-      link: "/project",
+      link: "/news/test",
 
       title:
         "Стройград представила новую цифровую платформу для продажи квартир через агентства недвижимости",
@@ -76,7 +76,7 @@ export default function Team() {
     },
     {
       id: 6,
-      link: "/project",
+      link: "/news/test",
 
       title:
         "Стройград представила новую цифровую платформу для продажи квартир через агентства недвижимости",
@@ -86,7 +86,7 @@ export default function Team() {
     },
     {
       id: 7,
-      link: "/project",
+      link: "/news/test",
 
       title:
         "Стройград представила новую цифровую платформу для продажи квартир через агентства недвижимости",
@@ -96,7 +96,7 @@ export default function Team() {
     },
     {
       id: 8,
-      link: "/project",
+      link: "/news/test",
 
       title: "График работы отделов продаж в выходные и праздничные дни",
       date: "22.10",
@@ -105,7 +105,7 @@ export default function Team() {
     },
     {
       id: 9,
-      link: "/project",
+      link: "/news/test",
 
       title:
         "Стройград представила новую цифровую платформу для продажи квартир через агентства недвижимости",
@@ -115,7 +115,7 @@ export default function Team() {
     },
     {
       id: 10,
-      link: "/project",
+      link: "/news/test",
 
       title:
         "Стройград представила новую цифровую платформу для продажи квартир через агентства недвижимости",
@@ -125,7 +125,7 @@ export default function Team() {
     },
     {
       id: 11,
-      link: "/project",
+      link: "/news/test",
       title: "График работы отделов продаж в выходные и праздничные дни",
       date: "22.10",
       image: "/img/news/5.jpg",
@@ -133,7 +133,7 @@ export default function Team() {
     },
     {
       id: 12,
-      link: "/project",
+      link: "/news/test",
 
       title: "График работы отделов продаж в выходные и праздничные дни",
       date: "22.10",
@@ -142,7 +142,7 @@ export default function Team() {
     },
     {
       id: 13,
-      link: "/project",
+      link: "/news/test",
 
       title: "График работы отделов продаж в выходные и праздничные дни",
       date: "22.10",
