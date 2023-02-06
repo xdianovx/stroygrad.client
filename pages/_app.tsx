@@ -4,6 +4,7 @@ import "../styles/globals.scss";
 
 import type { AppProps } from "next/app";
 import localFont from "@next/font/local";
+import { ThemeProvider } from "next-themes";
 
 const graphic = localFont({
   src: [
@@ -64,7 +65,9 @@ export default function App({ Component, pageProps }: AppProps) {
         }
       `}</style>
 
-      <Component {...pageProps} />
+      <ThemeProvider attribute="class">
+        <Component {...pageProps} />
+      </ThemeProvider>
     </>
   );
 }

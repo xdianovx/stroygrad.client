@@ -25,7 +25,6 @@ export const TextBlock = ({ title, text, className }: iTextBlock) => {
       trigger: ref.current,
       start: "top center",
       end: "bottom center",
-      // markers: true,
       // scrub: 0.3,
       animation: animation,
     });

@@ -22,12 +22,14 @@ export const ThemeChanger = ({ className }: iThemeChanger) => {
       <div
         className={cn(s.light, {
           [s.active]: theme == "light",
+          [s.darkmode]: theme == "dark",
         })}
         onClick={swithTheme}
       ></div>
       <div
         className={cn(s.dark, {
           [s.active]: theme == "dark",
+          [s.darkmode]: theme == "dark",
         })}
         onClick={swithTheme}
       ></div>

@@ -5,14 +5,19 @@
 }
 
 .light {
-  @apply border-black dark:border-white w-[20px] h-[20px] rounded-full  border duration-200;
+  @apply border-black  w-[20px] h-[20px] rounded-full  border duration-200;
 
-  &:hover {
-    @apply w-[28px] h-[28px];
-  }
+  // &:hover {
+  //   @apply w-[28px] h-[28px];
+  // }
 
   &.active {
     @apply w-[28px] h-[28px];
+  }
+
+  &.darkmode {
+    border: 1px solid #fff;
+    background: none;
   }
 }
 
@@ -23,16 +28,20 @@
   border: 1px solid #000;
   background: #000;
   transition: all 100ms ease-in-out;
-  &:hover {
-    width: 28px;
-    height: 28px;
-  }
+  // &:hover {
+  //   width: 28px;
+  //   height: 28px;
+  // }
   &.active {
     width: 28px;
     height: 28px;
   }
-}
 
-.test {
-  @apply w-4 h-4 bg-black dark:bg-white;
+  &.darkmode {
+    border: 1px solid #fff;
+  }
+
+  &.active.darkmode {
+    background: #fff;
+  }
 }

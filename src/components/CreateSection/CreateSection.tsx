@@ -22,7 +22,6 @@ export const CreateSection = () => {
       start: "top top",
       end: "bottom bottom",
       pin: refCards.current,
-      markers: true,
       scrub: 2,
       //   pinSpacing: false,
       //   animation: animation,

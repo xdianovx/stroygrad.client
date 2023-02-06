@@ -8,8 +8,11 @@ export interface iLogo {
 
 export const Logo = ({ className }: iLogo) => {
   return (
-    <Link href="/" className={cn(s.logo, className)}>
-      <svg width="449" height="62" viewBox="0 0 449 62" fill="#1F1F1F">
+    <Link
+      href="/"
+      className={cn(s.logo, className, "fill-black dark:fill-white")}
+    >
+      <svg width="449" height="62" viewBox="0 0 449 62">
         {/* <!-- C --> */}
         <rect
           className="letter1"
@@ -36,7 +39,6 @@ export const Logo = ({ className }: iLogo) => {
           height="44.3904"
           transform="rotate(90 92.9062 16.8174)"
         />
-
         {/* <!-- R --> */}
         <rect x="130.352" y="16.8174" width="10.5692" height="31.1035" />
         <rect x="96.5273" y="16.8174" width="10.5692" height="44.3904" />
@@ -54,7 +56,6 @@ export const Logo = ({ className }: iLogo) => {
           height="44.3904"
           transform="rotate(90 140.918 37.3521)"
         />
-
         {/* <!-- O --> */}
         <rect x="144.543" y="16.8174" width="10.5692" height="44.3904" />
         <rect x="178.363" y="16.8174" width="10.5692" height="44.3904" />
@@ -115,7 +116,6 @@ export const Logo = ({ className }: iLogo) => {
           height="44.3904"
           transform="rotate(90 380.988 37.6543)"
         />
-
         {/* <!-- D --> */}
         <rect x="394.277" y="16.8174" width="10.5692" height="44.3904" />
         <rect x="428.098" y="16.8174" width="10.5692" height="44.3904" />

@@ -19,7 +19,6 @@ export const ImageSection = () => {
       scrollTrigger: {
         trigger: sectionRef.current,
         end: "bottom",
-        markers: true,
         pin: true,
         scrub: 0.5,
       },
