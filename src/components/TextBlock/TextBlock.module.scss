@@ -1,14 +1,59 @@
 .block {
   h2 {
-    font-weight: 400;
-    font-size: 96px;
-    line-height: 100px;
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.02em;
+    @apply text-[96px] leading-[100px] flex items-center -tracking-[0.02em];
   }
 
   p {
-    max-width: 338px;
+    @apply max-w-[338px];
+  }
+}
+
+@screen xl {
+  .block {
+    h2 {
+      @apply text-[80px] leading-[110%];
+    }
+
+    p {
+      @apply leading-[140%];
+    }
+  }
+}
+
+@screen lg {
+  .block {
+    h2 {
+      @apply text-[72px];
+    }
+  }
+}
+
+@screen md {
+  .block {
+    h2 {
+      @apply text-[64px];
+    }
+  }
+}
+
+@screen sm {
+  .block {
+    h2 {
+      @apply text-[30px];
+    }
+    p {
+      @apply text-sm;
+    }
+  }
+}
+
+@screen xs {
+  .block {
+    h2 {
+      @apply text-[30px];
+    }
+    p {
+      @apply static transform-none mt-6;
+    }
   }
 }
