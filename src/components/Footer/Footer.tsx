@@ -1,52 +1,53 @@
-import s from "./Footer.module.scss";
-import Marquee from "react-fast-marquee";
-import LogoSvg from "./logo.svg";
-import Link from "next/link";
-import PinSvg from "./Pin.svg";
+import s from './Footer.module.scss'
+
+import PinSvg from './Pin.svg'
+import LogoSvg from './logo.svg'
+import Link from 'next/link'
+import Marquee from 'react-fast-marquee'
 
 export const Footer = () => {
   const topMarquee = [
-    "Ипотека 0,01%",
-    "Уютные квартиры со скидкой",
-    "Ипотека 0,01%",
-    "Уютные квартиры со скидкой",
-    "Ипотека 0,01%",
-    "Уютные квартиры со скидкой",
-    "Ипотека 0,01%",
-    "Уютные квартиры со скидкой",
-    "Ипотека 0,01%",
-    "Уютные квартиры со скидкой",
-    "Ипотека 0,01%",
-    "Уютные квартиры со скидкой",
-    "Ипотека 0,01%",
-    "Уютные квартиры со скидкой",
-    "Ипотека 0,01%",
-    "Уютные квартиры со скидкой",
-    "Ипотека 0,01%",
-    "Уютные квартиры со скидкой",
-  ];
+    'Ипотека 0,01%',
+    'Уютные квартиры со скидкой',
+    'Ипотека 0,01%',
+    'Уютные квартиры со скидкой',
+    'Ипотека 0,01%',
+    'Уютные квартиры со скидкой',
+    'Ипотека 0,01%',
+    'Уютные квартиры со скидкой',
+    'Ипотека 0,01%',
+    'Уютные квартиры со скидкой',
+    'Ипотека 0,01%',
+    'Уютные квартиры со скидкой',
+    'Ипотека 0,01%',
+    'Уютные квартиры со скидкой',
+    'Ипотека 0,01%',
+    'Уютные квартиры со скидкой',
+    'Ипотека 0,01%',
+    'Уютные квартиры со скидкой',
+  ]
 
   const bigMarqueeData = [
-    "Строим будущее",
-    "Строим будущее",
-    "Строим будущее",
-    "Строим будущее",
-    "Строим будущее",
-  ];
+    'Строим будущее',
+    'Строим будущее',
+    'Строим будущее',
+    'Строим будущее',
+    'Строим будущее',
+  ]
 
   const links = [
-    { id: 1, title: "О нас", to: "/about", num: "/01" },
-    { id: 2, title: "Проекты ", to: "/projects", num: "/02" },
-    { id: 3, title: "Вакансии", to: "/vacancy", num: "/03" },
-    { id: 4, title: "Контакты ", to: "/contacts", num: "/04" },
-  ];
+    { id: 1, title: 'О нас', to: '/about', num: '/01' },
+    { id: 2, title: 'Проекты ', to: '/projects', num: '/02' },
+    { id: 3, title: 'Вакансии', to: '/vacancy', num: '/03' },
+    { id: 4, title: 'Контакты ', to: '/contacts', num: '/04' },
+  ]
 
-  const address = "г. Ставрополь, ул.\nЧапаева, 4/1";
+  const address = 'г. Ставрополь, ул.\nЧапаева, 4/1'
 
-  const worktimeText = "Работаем\nкаждый день с 09:00 - 19:00";
+  const worktimeText = 'Работаем\nкаждый день с 09:00 - 19:00'
 
   return (
-    <footer className={s.footer}>
+    <footer className="bg-black dark:bg-black mt-[160px]">
       <div className={s.top}>
         <div className={s.top__wrap}>
           <Marquee loop={10} gradient={false} className={s.top__warquee}>
@@ -70,7 +71,7 @@ export const Footer = () => {
               <div className={s.marquee__item} key={idx}>
                 {item}
               </div>
-              <LogoSvg />
+              <LogoSvg className="" />
             </>
           ))}
         </Marquee>
@@ -97,12 +98,12 @@ export const Footer = () => {
           </div>
           <div className={s.right__wrap}>
             <PinSvg />
-            <p className="ml-auto text-3xl text-right uppercase leading-[130%]">
+            <p className="ml-auto text-3xl text-right uppercase leading-[130%] sm:text-base">
               {address}
             </p>
           </div>
         </div>
       </div>
     </footer>
-  );
-};
+  )
+}
