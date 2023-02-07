@@ -17,3 +17,63 @@
     @apply ml-auto text-sm;
   }
 }
+
+@screen xl {
+  .section {
+    @apply pt-[180px];
+  }
+  .item {
+    @apply py-[32px];
+  }
+  .inner {
+    div {
+      @apply text-[96px];
+    }
+  }
+}
+
+@screen lg {
+  .item {
+    @apply py-[24px];
+  }
+  .inner {
+    div {
+      @apply text-[76px];
+    }
+  }
+}
+
+@screen md {
+  .section {
+    @apply pt-[120px];
+  }
+
+  .item {
+    @apply py-[24px];
+  }
+
+  .inner {
+    div {
+      @apply text-[64px];
+    }
+  }
+}
+
+@screen sm {
+  .section {
+    @apply pt-[60px];
+  }
+  .item {
+    @apply py-[20px];
+  }
+  .inner {
+    @apply grid-cols-[110px_1fr_20px];
+    div {
+      @apply text-[38px];
+    }
+
+    p {
+      @apply text-xs max-w-[100px];
+    }
+  }
+}

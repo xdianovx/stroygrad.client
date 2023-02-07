@@ -1,9 +1,9 @@
-import s from "./LifeSection.module.scss";
+import s from './LifeSection.module.scss'
 
 export const LifeSection = () => {
-  const suptitle = "Жизнь в Стройград";
+  const suptitle = 'Жизнь в Стройград'
   const text =
-    "Мы не просто строим дома, мы\nсоздаем место для дружбы,\nлюбви и жизни!";
+    'Мы не просто строим дома, мы\nсоздаем место для дружбы,\nлюбви и жизни!'
 
   return (
     <section className={s.section}>
@@ -16,5 +16,5 @@ export const LifeSection = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}

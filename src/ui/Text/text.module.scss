@@ -5,3 +5,30 @@
 .lg {
   @apply text-[90px] leading-[100px] tracking-tighter;
 }
+
+@screen xl {
+  .md {
+    @apply text-[48px] leading-[120%];
+  }
+}
+
+@screen lg {
+  .md {
+    @apply text-[48px];
+  }
+}
+
+@screen md {
+  .md {
+    @apply text-[32px];
+  }
+}
+
+@screen sm {
+  .md {
+    @apply text-[28px];
+  }
+}
+
+@screen xs {
+}

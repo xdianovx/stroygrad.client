@@ -3,13 +3,47 @@
 }
 
 .wrap {
-  @apply flex items-start;
+  @apply grid grid-cols-3 items-start;
 }
 
 .left {
-
 }
 
 .right {
-  @apply ml-auto max-w-[805px];
+  @apply col-span-2;
+}
+
+@screen xl {
+  .section {
+    @apply pt-[320px];
+  }
+}
+
+@screen lg {
+  .section {
+    @apply pt-[220px];
+  }
+}
+
+@screen md {
+  .section {
+    @apply pt-[180px];
+  }
+
+  .wrap {
+    @apply block;
+  }
+
+  .left {
+    @apply mb-16;
+  }
+}
+
+@screen sm {
+  .section {
+    @apply pt-[150];
+  }
+}
+
+@screen xs {
 }

@@ -20,3 +20,47 @@
 .text {
   @apply mt-[80px] text-[55px] leading-[69px];
 }
+
+@screen xl {
+  .section {
+    @apply mt-[320px];
+  }
+
+  .text {
+    @apply mt-[56px] text-[48px] leading-[110%];
+  }
+}
+
+@screen lg {
+  .section {
+    @apply mt-[320px];
+  }
+
+  .text {
+    @apply mt-[56px] text-[48px] leading-[110%];
+  }
+}
+
+@screen md {
+  .section {
+    @apply mt-0;
+  }
+
+  .text {
+    @apply mt-[32px] text-[32px];
+  }
+}
+
+@screen sm {
+  .section {
+    @apply mt-0;
+  }
+
+  .suptitle {
+    @apply text-xs leading-3;
+  }
+
+  .text {
+    @apply mt-[32px] text-[30px];
+  }
+}
