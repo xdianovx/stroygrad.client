@@ -1,9 +1,10 @@
-import cn from "classnames";
-import s from "./NumberList.module.scss";
+import s from './NumberList.module.scss'
+
+import cn from 'classnames'
 
 export interface iNumberList {
-  className?: string;
-  data?: any;
+  className?: string
+  data?: any
 }
 
 export const NumberList = ({ className, data }: iNumberList) => {
@@ -23,5 +24,5 @@ export const NumberList = ({ className, data }: iNumberList) => {
         ))}
       </div>
     </section>
-  );
-};
+  )
+}

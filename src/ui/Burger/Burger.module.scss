@@ -9,6 +9,13 @@
   cursor: pointer;
   position: relative;
   z-index: 4;
+
+  &.dark {
+    .top,
+    .bottom {
+      @apply bg-white;
+    }
+  }
 }
 
 .top {
@@ -23,7 +30,6 @@
   @apply bg-black dark:bg-slate-50;
   position: absolute;
   transition: all 0.2ms ease;
-
   right: 0;
   height: 2px;
   width: 30px;

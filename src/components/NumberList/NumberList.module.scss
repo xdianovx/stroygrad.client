@@ -1,20 +1,19 @@
 .section {
-  @apply pt-[228px]
+  @apply pt-[228px];
 }
 
 .item {
   @apply border-t-gray border-t py-[46px];
-
 }
 
 .inner {
   @apply grid grid-cols-3 items-center;
 
   div {
-    @apply text-[120px] leading-none
+    @apply text-[120px] leading-none;
   }
 
   span {
-    @apply ml-auto text-sm
+    @apply ml-auto text-sm;
   }
 }

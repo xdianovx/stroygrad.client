@@ -5,3 +5,27 @@
 .wrap {
   @apply relative flex items-center;
 }
+
+@screen xl {
+  .header {
+    @apply pt-[32px];
+  }
+}
+
+@screen lg {
+}
+
+@screen md {
+  .header {
+    @apply pt-[24px];
+  }
+}
+
+@screen sm {
+  .header {
+    @apply pt-[20px];
+  }
+}
+
+@screen xs {
+}

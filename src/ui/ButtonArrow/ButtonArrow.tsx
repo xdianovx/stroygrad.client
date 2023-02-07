@@ -1,17 +1,16 @@
-import s from "./ButtonArrow.module.scss";
+import s from './ButtonArrow.module.scss'
 
-import cn from "classnames";
-
-import IconSvg from "./Icon.svg";
+import IconSvg from './Icon.svg'
+import cn from 'classnames'
 
 export interface iButtonArrow {
-  className?: string;
+  className?: string
 }
 
-export const ButtonArrow = ({ className }: iButtonArrow) => {
+export const ButtonArrow = ({ className }: iButtonArrow): JSX.Element => {
   return (
     <button className={cn(s.btn, className)}>
       <IconSvg />
     </button>
-  );
-};
+  )
+}

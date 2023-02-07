@@ -1,7 +1,7 @@
 {
 	"printWidth": 80,
 	"tabWidth": 2,
-	"useTabs": true,
+	"useTabs": false,
 	"trailingComma": "all",
 	"singleQuote": true,
 	"semi": false,
@@ -9,9 +9,9 @@
 	"importOrder": [
 		"(.scss)$",
 		"<THIRD_PARTY_MODULES>",
+		"^@/layouts/",
 		"^@/components/",
-		"^@/ui/",
-		"^/"
+		"^@/ui/"
 	],
 	"importOrderSeparation": true,
 	"importOrderSortSpecifiers": true
