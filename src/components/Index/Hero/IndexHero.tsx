@@ -1,9 +1,10 @@
 import s from './IndexHero.module.scss'
 
-import { Title } from '../../../ui'
 import cn from 'classnames'
 import gsap from 'gsap'
 import { useEffect, useRef, useState } from 'react'
+
+import { Title } from '@/ui/index'
 
 export interface iIndexHero {
   className?: string

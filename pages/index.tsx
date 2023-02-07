@@ -1,3 +1,7 @@
+import Head from 'next/head'
+
+import MainLayout from '@/layouts/MainLayout'
+
 import {
   ComplexSolutions,
   ImageSection,
@@ -7,9 +11,7 @@ import {
   Projects,
   Services,
   TextBlock,
-} from '../src/components'
-import MainLayout from '../src/layouts/MainLayout'
-import Head from 'next/head'
+} from '@/components/index'
 
 export default function Home() {
   const numbersData = [
@@ -27,10 +29,10 @@ export default function Home() {
 
       <MainLayout>
         <main>
-          {/* <IndexHero
-            className="mt-[290px] xl:mt-[120px]"
+          <IndexHero
+            className="mt-[290px] xl:mt-[120px] lg:mt-[90px] md:mt-[120px]"
             title="Мы строим счастливое будущее"
-          /> */}
+          />
           {/* <ImageSection />
           <TextBlock
             className="mt-[290px]"

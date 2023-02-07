@@ -9,6 +9,30 @@
 
 @screen xl {
   .h1 {
-    @apply text-[200px] leading-[100%];
+    @apply text-[200px] leading-[85%];
+  }
+}
+
+@screen lg {
+  .h1 {
+    @apply text-[168px];
+  }
+}
+
+@screen md {
+  .h1 {
+    @apply text-[120px];
+  }
+}
+
+@screen sm {
+  .h1 {
+    @apply text-[80px];
+  }
+}
+
+@screen xs {
+  .h1 {
+    @apply text-[60px];
   }
 }
